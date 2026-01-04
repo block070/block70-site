@@ -1,0 +1,10 @@
+{
+  "name": "Block70",
+  "tagline": "Infrastructure for Web3 & DePIN Networks",
+  "nav": [
+    { "label": "Home", "url": "/" },
+    { "label": "Status", "url": "/status/" },
+    { "label": "Pricing", "url": "/pricing/" },
+    { "label": "Contact", "url": "/contact/" }
+  ]
+}
