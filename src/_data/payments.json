@@ -1,0 +1,22 @@
+{
+  "starter": {
+    "name": "Starter",
+    "price": "$29 / month",
+    "link": "https://buy.stripe.com/cNi3cveJM4Enfdf09HejK00"
+  },
+  "builder": {
+    "name": "Builder",
+    "price": "$79 / month",
+    "link": "https://buy.stripe.com/3cI7sL4587Qzd571dLejK01"
+  },
+  "pro": {
+    "name": "Builder",
+    "price": "$149 / month",
+    "link": "https://buy.stripe.com/14AdR9eJM9YH1mp9KhejK02"
+  },
+  "enterprise": {
+    "name": "Enterprise",
+    "price": "Custom",
+    "link": "/contact/"
+  }
+}
