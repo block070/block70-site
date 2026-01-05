@@ -5,8 +5,17 @@
   <title>{{ title }}</title>
 </head>
 <body>
+
   <header>
-    <strong>Block70</strong>
+    <div class="container nav">
+      <strong>{{ site.name }}</strong>
+
+      <nav>
+        {% for item in site.nav %}
+          <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -14,7 +23,8 @@
   </main>
 
   <footer>
-    <small>Footer</small>
+    <small>© {{ site.name }}</small>
   </footer>
+
 </body>
 </html>
