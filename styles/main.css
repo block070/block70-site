@@ -54,10 +54,36 @@ section {
   margin-bottom: 6rem;
 }
 
+/* Hero Section */
 .hero p {
   font-size: 1.1rem;
 }
+.hero {
+  padding: 96px 0 72px;
+  border-bottom: 1px solid var(--border);
+}
 
+.hero h1 {
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+.hero p {
+  color: var(--muted);
+  max-width: 720px;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 64px 0 48px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
 /* Simple grid */
 .grid-4 {
   display: grid;
