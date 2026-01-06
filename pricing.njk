@@ -1,11 +1,80 @@
 ---
 title: Pricing
+layout: layout.njk
 permalink: /pricing/
 ---
 
-{% set content %}
-<h1>Pricing</h1>
-<p>Pricing page rendered successfully.</p>
-{% endset %}
+<section class="hero">
+  <h1>Infrastructure Pricing</h1>
+  <p>
+    Transparent pricing for production-grade Web3 and DePIN infrastructure.
+    Built for teams that need reliability, not experiments.
+  </p>
+</section>
 
-{% include "partials/shell.njk" %}
+<section class="pricing-grid">
+  <div class="pricing-card">
+    <h3>Starter</h3>
+    <p class="price">$29<span>/month</span></p>
+    <p class="plan-desc">
+      For developers evaluating Block70 infrastructure.
+    </p>
+    <ul>
+      <li>Shared RPC access</li>
+      <li>Rate-limited requests</li>
+      <li>Public status visibility</li>
+      <li>Community support</li>
+    </ul>
+    <a class="button secondary" href="#">
+      Available Soon
+    </a>
+  </div>
+
+  <div class="pricing-card featured">
+    <h3>Pro</h3>
+    <p class="price">$99<span>/month</span></p>
+    <p class="plan-desc">
+      For production applications and growing teams.
+    </p>
+    <ul>
+      <li>Higher RPC rate limits</li>
+      <li>Priority routing</li>
+      <li>Enhanced monitoring</li>
+      <li>Email support</li>
+    </ul>
+    <a class="button primary" href="#">
+      Available Soon
+    </a>
+  </div>
+
+  <div class="pricing-card">
+    <h3>Enterprise</h3>
+    <p class="price">Custom</p>
+    <p class="plan-desc">
+      For organizations requiring dedicated infrastructure and SLAs.
+    </p>
+    <ul>
+      <li>Dedicated nodes or clusters</li>
+      <li>SLA-backed uptime</li>
+      <li>Custom deployments</li>
+      <li>Direct engineering contact</li>
+    </ul>
+    <a class="button secondary" href="/contact/">
+      Contact Sales
+    </a>
+  </div>
+</section>
+
+<section class="pricing-notes">
+  <h2>What’s Included</h2>
+  <ul>
+    <li>Production-hardened Linux infrastructure</li>
+    <li>Automated deployments and updates</li>
+    <li>Transparent service status</li>
+    <li>No long-term contracts</li>
+  </ul>
+
+  <p class="pricing-footnote">
+    Pricing will evolve as additional networks and services are added.
+  </p>
+</section>
